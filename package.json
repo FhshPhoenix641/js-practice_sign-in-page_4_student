@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "cross-env TAILWIND_MODE=watch vite",
     "build": "cross-env TAILWIND_MODE=build vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "git-cz": "^4.8.0",
