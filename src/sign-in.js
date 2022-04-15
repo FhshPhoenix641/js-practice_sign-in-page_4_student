@@ -1,3 +1,4 @@
+// 取得 form 元件
 const form = document.getElementById("sign-in-form");
 
 form.addEventListener("submit", function (e) {
